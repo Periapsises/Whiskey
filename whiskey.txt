@@ -1,0 +1,14 @@
+--@name Whiskey Music Player
+--@author Periapsis
+
+--@shared
+
+--@includedir whiskey
+
+if SERVER then
+    require( "whiskey/sv_whiskey.txt" )
+
+    return
+end
+
+require( "whiskey/cl_whiskey.txt" )
